@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Khwarizmi: The Original Algorithm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+        }
+        .slide {
+            transition: opacity 0.5s ease-in-out;
+            min-height: 450px; /* Ensure consistent height */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
+        <div class="p-8 md:p-12 relative">
+            <!-- Slide Container -->
+            <div id="slides-container">
+
+                <!-- Slide 1: Title -->
+                <div id="slide-1" class="slide flex flex-col justify-center text-center">
+                    <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Al-Khwarizmi</h1>
+                    <p class="text-2xl md:text-3xl text-emerald-600 mb-8">The Father of Algebra & The Original Algorithm</p>
+                    
+                    <img src="https://placehold.co/600x400/e2e8f0/334155?text=Al-Khwarizmi" alt="An illustration representing Al-Khwarizmi's era of scientific discovery" class="mx-auto rounded-lg shadow-md mb-8 w-full max-w-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/334155?text=Image+Not+Found';">
+                    <p class="text-lg text-slate-600">An interactive presentation on his life and foundational work.</p>
+                </div>
+
+                <!-- Slide 2: Early Life -->
+                <div id="slide-2" class="slide" style="display: none;">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-sky-500 pb-2">Early Life & The House of Wisdom</h2>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <ul class="space-y-4 text-lg text-slate-700 list-disc list-inside">
+                                <li>Lived from c. 780 to c. 850 CE during the Islamic Golden Age.</li>
+                                <li>A Persian polymath who worked as a scholar at the renowned **House of Wisdom** in Baghdad.</li>
+                                <li>This academy was the world's center for study, where he translated and synthesized Greek, Indian, and other scientific knowledge.</li>
+                                <li>His environment gave him access to the world's most advanced mathematical concepts of his time.</li>
+                            </ul>
+                            <a href="https://www.youtube.com/watch?v=A4I4b2m1o_A" target="_blank" class="mt-8 inline-block bg-sky-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-sky-700 transition-colors">
+                                Watch: The House of Wisdom
+                            </a>
+                        </div>
+                        
+                        <img src="https://placehold.co/600x400/dbeafe/1e40af?text=House+of+Wisdom" alt="An artistic rendering of the House of Wisdom in Baghdad" class="rounded-lg shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/dbeafe/1e40af?text=Image+Not+Found';">
+                    </div>
+                </div>
+
+                <!-- Slide 3: Major Contributions -->
+                <div id="slide-3" class="slide" style="display: none;">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-amber-500 pb-2">Major Contributions</h2>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        
+                        <img src="https://placehold.co/600x400/fef3c7/b45309?text=Al-Jabr+Manuscript" alt="A page from Al-Khwarizmi's manuscript on Algebra" class="rounded-lg shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/fef3c7/b45309?text=Image+Not+Found';">
+                        <div>
+                            <ul class="space-y-3 text-lg text-slate-700 list-disc list-inside">
+                                <li>**Father of Algebra:** His book *Al-Jabr wa'l-muqabala* provided the first systematic methods for solving linear and quadratic equations. Our word **"algebra"** comes from the title.</li>
+                                <li>**Popularized Hindu-Arabic Numerals:** He introduced the system of numerals (0-9) to the Western world, which is the foundation of all modern calculation.</li>
+                                <li>**The Algorithm:** His name, Latinized as *"Algoritmi"*, became synonymous with his step-by-step methods, giving us the word **"algorithm."**</li>
+                            </ul>
+                            <a href="https://www.youtube.com/watch?v=v8-L32-8p30" target="_blank" class="mt-6 inline-block bg-amber-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-700 transition-colors">
+                                Learn About the Birth of Algebra
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Foundational Contributions to AI -->
+                <div id="slide-4" class="slide" style="display: none;">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-teal-500 pb-2">Foundations of Artificial Intelligence</h2>
+                     <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <p class="text-lg text-slate-700 mb-4">While he lived centuries before AI, his work created the two essential pillars it is built on:</p>
+                            <ul class="space-y-3 text-lg text-slate-700 list-disc list-inside">
+                                <li>**The Algorithm:** AI is fundamentally built on algorithms. He formalized the idea of a clear, repeatable, step-by-step procedure to solve problems, which is the essence of computer programming.</li>
+                                <li>**Abstraction via Algebra:** Algebra provides the language to create abstract models and functions. AI models are complex algebraic functions that learn from data.</li>
+                            </ul>
+                             <a href="https://www.youtube.com/watch?v=6hfOvs8pY1k" target="_blank" class="mt-6 inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-teal-700 transition-colors">
+                                What Is An Algorithm?
+                            </a>
+                        </div>
+                        
+                        <img src="https://placehold.co/600x400/ccfbf1/0f766e?text=Algorithm+to+AI" alt="A conceptual diagram showing the link from algorithms to AI" class="rounded-lg shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/ccfbf1/0f766e?text=Image+Not+Found';">
+                    </div>
+                </div>
+                
+                <!-- Slide 5: Influence on Modern AI -->
+                <div id="slide-5" class="slide" style="display: none;">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-indigo-500 pb-2">Influence on Modern-Day AI</h2>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        
+                        <img src="https://placehold.co/600x400/e0e7ff/3730a3?text=Modern+AI" alt="A graphic representing a modern neural network" class="rounded-lg shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e0e7ff/3730a3?text=Image+Not+Found';">
+                        <div>
+                             <h3 class="text-2xl font-semibold text-indigo-700 mb-3">An Enduring Legacy</h3>
+                            <ul class="space-y-3 text-lg text-slate-700 list-disc list-inside">
+                                <li>Every piece of software, including AI, is an implementation of algorithms.</li>
+                                <li>**Machine Learning** relies on algebra to define models and algorithms to train them on data.</li>
+                                <li>His key innovation was creating a **process** to solve classes of problems, not just a single problem. This is the core of computational thinking.</li>
+                                <li>He is often called the "grandfather of computer science" for providing these fundamental tools.</li>
+                            </ul>
+                            <a href="https://www.youtube.com/watch?v=k-a_B55J1nI" target="_blank" class="mt-6 inline-block bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-indigo-700 transition-colors">
+                                How Algorithms Power Our World
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Navigation -->
+            <div class="mt-12 flex justify-between items-center">
+                <button id="prev-btn" class="bg-slate-300 text-slate-800 font-bold py-2 px-5 rounded-lg hover:bg-slate-400 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">Previous</button>
+                <div id="slide-counter" class="text-slate-600 text-sm font-semibold">Slide 1 / 5</div>
+                <button id="next-btn" class="bg-slate-300 text-slate-800 font-bold py-2 px-5 rounded-lg hover:bg-slate-400 transition-colors">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const slideCounter = document.getElementById('slide-counter');
+        
+        let currentSlide = 0;
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? 'block' : 'none';
+                slide.style.opacity = i === index ? 1 : 0;
+            });
+            updateNav();
+        }
+
+        function updateNav() {
+            slideCounter.textContent = `Slide ${currentSlide + 1} / ${totalSlides}`;
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === totalSlides - 1;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+
+        // Initial setup
+        showSlide(currentSlide);
+    </script>
+
+</body>
+</html>
